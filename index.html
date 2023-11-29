@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Batalha Naval</title>
+  <style>
+    .board {
+      display: grid;
+      grid-template-columns: repeat(10, 40px);
+      grid-gap: 2px;
+    }
+    .cell {
+      width: 40px;
+      height: 40px;
+      background-color: lightblue;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 40px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Batalha Naval</h1>
+  <div class="board" id="playerBoard"></div>
+  <div class="board" id="computerBoard"></div>
+  <script src="batalhaNaval.js"></script>
+</body>
+</html>
